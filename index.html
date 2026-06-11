@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sementes do Amanhã - Sustentabilidade Interativa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" data-target="home">🌿 Sementes do Amanhã</a>
+            
+            <button class="menu-toggle" id="mobile-menu" aria-label="Abrir menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <nav class="nav-links">
+                <a href="#" class="nav-link active" data-target="home">Página Inicial</a>
+                <a href="#" class="nav-link" data-target="escolhas">Peso das Escolhas</a>
+                <a href="#" class="nav-link" data-target="industria">Indústria Limpa (Match)</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+
+        <section id="home" class="page active">
+            <div class="hero-section">
+                <h1>O Equilíbrio entre Produção e Meio Ambiente</h1>
+                <p>Descubra como a tecnologia, a ciência e as escolhas inteligentes transformam indústrias e o campo em busca de um futuro viável.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" data-target="escolhas">Peso das Escolhas</button>
+                    <button class="btn btn-secondary" data-target="industria">Indústria Limpa Match</button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="intro-block text-center">
+                    <h2>Produção Consciente e Inovação</h2>
+                    <p>Produzir de forma correta e proteger a natureza ao mesmo tempo é o nosso maior objetivo. Conheça abaixo as inovações que reduzem impactos ambientais e, em seguida, escolha um dos nossos jogos interativos no menu superior para testar as suas habilidades!</p>
+                </div>
+
+                <div class="cards-grid">
+                    <div class="content-card">
+                        <div class="card-icon">🚜</div>
+                        <h3>Efeito Poupa-Terra</h3>
+                        <p>Em vez de desmatar florestas, a ciência foca em produzir de forma inteligente, aumentando a eficiência no mesmo espaço de cultivo.</p>
+                        <span class="curiosidade">💡 Economia de espaço: O ganho de eficiência poupou milhões de hectares de matas nativas nos últimos anos.</span>
+                    </div>
+
+                    <div class="content-card">
+                        <div class="card-icon">🦠</div>
+                        <h3>Biodefensivos Naturais</h3>
+                        <p>Para evitar o uso excessivo de produtos químicos tradicionais, são utilizados inimigos naturais (como pequenos insetos bons ou fungos) para proteger as plantas.</p>
+                        <span class="curiosidade">💡 Sucesso prático: Grande parte das plantações de cana-de-açúcar já usa esse método natural!</span>
+                    </div>
+
+                    <div class="content-card">
+                        <div class="card-icon">🌾</div>
+                        <h3>Solo Blindado</h3>
+                        <p>Cultivar sem revirar a terra pesadamente e misturar árvores com pastos protege o solo contra o calor e evita que ele seja levado pelas chuvas.</p>
+                        <span class="curiosidade">💡 Esponja d'água: O solo protegido absorve muito melhor a água da chuva e resiste aos tempos de seca.</span>
+                    </div>
+
+                    <div class="content-card">
+                        <div class="card-icon">🔬</div>
+                        <h3>Adubação Natural</h3>
+                        <p>Uso de bactérias benéficas que capturam o nitrogênio do próprio ar e o entregam para as plantas, eliminando fertilizantes químicos poluentes.</p>
+                        <span class="curiosidade">💡 Grande Descoberta: Técnica aperfeiçoada no Brasil que poupa bilhões de dólares e evita poluição.</span>
+                    </div>
+                </div>
+
+                <div class="desafio-box">
+                    <h3>⚡ O Grande Desafio: Conscientização e Educação</h3>
+                    <p>A tecnologia e as soluções sustentáveis já existem! O nosso verdadeiro papel agora é fazer com que essa informação chegue de forma simples a todos os produtores e cidadãos do país. A educação ambiental é a chave para o equilíbrio real entre os lucros e a preservação do planeta.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="escolhas" class="page">
+            <div class="container">
+                <h2 class="section-title text-center">Simulador: Peso das Escolhas</h2>
+                <p class="section-subtitle text-center">Você é o diretor de uma grande área produtiva. Tome decisões rápidas para equilibrar suas finanças e proteger o meio ambiente. Se qualquer uma das barras chegar a zero, você perde!</p>
+                
+                <div class="game-container">
+                    <div class="status-bars-container">
+                        <div class="bar-group">
+                            <div class="bar-label">🪙 Produção & Lucro: <span id="val-lucro">50</span>%</div>
+                            <div class="bar-bg">
+                                <div id="bar-lucro" class="bar-fill bar-lucro-color" style="width: 50%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="bar-group">
+                            <div class="bar-label">🌿 Meio Ambiente: <span id="val-eco">50</span>%</div>
+                            <div class="bar-bg">
+                                <div id="bar-eco" class="bar-fill bar-eco-color" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="decision-box text-center">
+                        <div class="decision-counter">Decisão <span id="decision-current">1</span> de <span id="decision-total">5</span></div>
+                        <div class="decision-text" id="decision-text">Carregando situação...</div>
+                        
+                        <div class="decision-buttons">
+                            <button id="btn-choice-yes" class="btn btn-primary btn-choice">🟢 SIM</button>
+                            <button id="btn-choice-no" class="btn btn-secondary btn-choice">🔴 NÃO</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="sim-modal-end" class="modal-vitoria hidden">
+                    <div class="modal-content">
+                        <h2 id="sim-end-title">Resultado do Mandato</h2>
+                        <p id="sim-end-text">Carregando histórico corporativo...</p>
+                        <button id="btn-restart-sim" class="btn btn-primary">Reiniciar Simulador</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="industria" class="page">
+            <div class="container">
+                <h2 class="section-title text-center">Match-Up: Indústria Limpa</h2>
+                <p class="section-subtitle text-center">Aprenda a compensar os danos. Primeiro clique em um <strong>Problema Industrial</strong> (Lado Esquerdo) e depois na sua <strong>Solução Sustentável</strong> correspondente (Lado Direito)!</p>
+
+                <div class="game-container wide-game">
+                    <div class="match-score-panel">
+                        <div>Faltam Resolver: <span id="match-left">0</span></div>
+                        <div>Erros cometidos: <span id="match-errors">0</span></div>
+                    </div>
+
+                    <div class="match-grid">
+                        <div class="match-column" id="col-problems">
+                            <h3>⚠️ Problemas Industriais</h3>
+                        </div>
+                        <div class="match-column" id="col-solutions">
+                            <h3>🌱 Soluções Sustentáveis</h3>
+                        </div>
+                    </div>
+
+                    <div class="text-center" style="margin-top: 25px;">
+                        <button id="btn-restart-match" class="btn btn-secondary">Reiniciar Quiz</button>
+                    </div>
+                </div>
+
+                <div id="match-modal-end" class="modal-vitoria hidden">
+                    <div class="modal-content">
+                        <h2>⚙️ Cadeia Produtiva Limpa!</h2>
+                        <p id="match-end-text">Parabéns! Você resolveu todos os problemas de forma sustentável.</p>
+                        <button id="btn-close-match-end" class="btn btn-primary">Jogar de Novo</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 - Cultivando um Futuro Sustentável. Desenvolvido com foco em Educação Ambiental.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

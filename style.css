@@ -1,0 +1,472 @@
+/* ==========================================================================
+   1. PALETA CORES FLORESTA TROPICAL + BRANCO PURO
+   ========================================================================== */
+   :root {
+    --primary-deep: #1b4332;        /* Verde Copa de Árvore Profundo */
+    --primary-medium: #2d6a4f;      /* Verde Tropical Intermediário */
+    --primary-light: #52b788;       /* Verde Broto Claro */
+    --accent-warning: #ef4444;      /* Vermelho Alerta de Poluição */
+    --bg-safari: #f4f9f4;           /* Fundo Ecológico Suave */
+    --bg-white: #ffffff;            /* Branco Puro para Dados e Blocos */
+    --text-dark: #1b4332;           /* Texto Principal */
+    --text-muted: #52796f;          /* Verde Secundário */
+    --border-light: #d8f3dc;         /* Bordas Suaves */
+    --transition-fast: all 0.25s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-safari);
+    color: var(--text-dark);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.text-center { text-align: center; }
+.hidden { display: none !important; }
+
+/* Configuração de Títulos */
+.section-title {
+    font-size: 2.2rem;
+    color: var(--primary-deep);
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.section-subtitle {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    max-width: 800px;
+    margin: 0 auto 35px auto;
+}
+
+/* Elementos de Botão */
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition-fast);
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: var(--primary-medium);
+    color: var(--bg-white);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-deep);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(45, 106, 79, 0.3);
+}
+
+.btn-secondary {
+    background-color: var(--bg-white);
+    color: var(--primary-medium);
+    border: 2px solid var(--primary-medium);
+}
+
+.btn-secondary:hover {
+    background-color: var(--primary-medium);
+    color: var(--bg-white);
+    transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   2. NAVBAR FIXA DE NAVEGAÇÃO INTERATIVA
+   ========================================================================== */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 2px 15px rgba(27, 67, 50, 0.06);
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--primary-deep);
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 8px 18px;
+    border-radius: 6px;
+    transition: var(--transition-fast);
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--bg-white);
+    background-color: var(--primary-medium);
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    height: 3px;
+    width: 100%;
+    background-color: var(--primary-deep);
+    border-radius: 2px;
+}
+
+/* ==========================================================================
+   3. SEÇÃO INICIAL (HERO COM IMAGEM DE EQUILÍBRIO)
+   ========================================================================== */
+.main-content {
+    margin-top: 70px;
+    min-height: calc(100vh - 140px);
+}
+
+.page {
+    display: none;
+    animation: fader 0.4s ease-in-out;
+}
+
+.page.active { display: block; }
+
+@keyframes fader {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.hero-section {
+    /* Gradiente de sobreposição escuro + imagem conceitual de alta resolução de campo tecnológico e preservado */
+    background-image: linear-gradient(rgba(11, 29, 22, 0.65), rgba(27, 67, 50, 0.8)), url('https://images.unsplash.com/photo-1625246333195-78d9c38ad451?q=80&w=1400&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    color: var(--bg-white);
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.8rem;
+    margin-bottom: 18px;
+    font-weight: 700;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 35px auto;
+    font-weight: 300;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.intro-block {
+    background-color: var(--bg-white);
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.content-card {
+    background-color: var(--bg-white);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(27, 67, 50, 0.03);
+    border-top: 4px solid var(--primary-light);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-icon { font-size: 2.3rem; margin-bottom: 12px; }
+.content-card h3 { color: var(--primary-deep); margin-bottom: 10px; }
+.content-card p { font-size: 0.92rem; color: #333; margin-bottom: 12px; }
+
+.curiosidade {
+    margin-top: auto;
+    display: block;
+    font-size: 0.84rem;
+    background-color: var(--bg-safari);
+    color: var(--primary-medium);
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    border-left: 3px solid var(--primary-medium);
+}
+
+.desafio-box {
+    margin-top: 40px;
+    background-color: #fffdf5;
+    border: 2px dashed #f59e0b;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+/* ==========================================================================
+   4. COMPONENTES DO SIMULADOR (PESO DAS ESCOLHAS)
+   ========================================================================== */
+.game-container {
+    max-width: 650px;
+    margin: 0 auto;
+    background-color: var(--bg-white);
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(27,67,50,0.05);
+}
+
+.game-container.wide-game { max-width: 850px; }
+
+.status-bars-container {
+    background-color: var(--bg-safari);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: 1px solid var(--border-light);
+}
+
+.bar-group {
+    margin-bottom: 15px;
+}
+
+.bar-group:last-child { margin-bottom: 0; }
+
+.bar-label {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: var(--primary-deep);
+}
+
+.bar-bg {
+    width: 100%;
+    height: 16px;
+    background-color: #e2e8f0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 100%;
+    width: 50%;
+    border-radius: 8px;
+    transition: width 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.bar-lucro-color { background-color: #f59e0b; }
+.bar-eco-color { background-color: var(--primary-medium); }
+
+.decision-box {
+    padding: 10px 5px;
+}
+
+.decision-counter {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--primary-light);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.decision-text {
+    font-size: 1.1rem;
+    color: #2d3748;
+    margin-bottom: 30px;
+    min-height: 80px;
+}
+
+.decision-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-choice {
+    min-width: 140px;
+}
+
+/* ==========================================================================
+   5. INTERFACE DO QUIZ DE COMBINAÇÃO
+   ========================================================================== */
+.match-score-panel {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    background-color: var(--bg-safari);
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border-light);
+}
+
+.match-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.match-column h3 {
+    font-size: 1.05rem;
+    color: var(--primary-deep);
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.match-card {
+    background-color: var(--bg-white);
+    border: 2px solid var(--border-light);
+    padding: 14px 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition-fast);
+    user-select: none;
+}
+
+.match-card:hover {
+    border-color: var(--primary-medium);
+    background-color: #fafdfa;
+}
+
+.match-card.selected {
+    background-color: #e8f5e9;
+    border-color: var(--primary-light);
+}
+
+.match-card.matched {
+    cursor: default;
+    opacity: 0.65;
+    pointer-events: none;
+    border-style: dashed;
+}
+
+.shake-error {
+    animation: shakeAnim 0.4s ease;
+    background-color: #fee2e2 !important;
+    border-color: var(--accent-warning) !important;
+}
+
+@keyframes shakeAnim {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+/* ==========================================================================
+   6. MODAIS DE AVISOS E FORMATO RESPONSIVO
+   ========================================================================== */
+.modal-vitoria {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(11, 29, 22, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    padding: 15px;
+}
+
+.modal-content {
+    background-color: var(--bg-white);
+    padding: 35px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.modal-content h2 { color: var(--primary-deep); margin-bottom: 15px; }
+
+.footer {
+    background-color: var(--primary-deep);
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle { display: flex; }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--bg-white);
+        padding: 20px;
+        gap: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .nav-links.mobile-open { display: flex; }
+    .hero-section { padding: 80px 15px; }
+    .hero-section h1 { font-size: 1.9rem; }
+    .hero-section p { font-size: 1rem; }
+    .match-grid { grid-template-columns: 1fr; gap: 10px; }
+    .game-container { padding: 20px 12px; }
+    .decision-buttons { flex-direction: column; gap: 10px; }
+    .btn-choice { width: 100%; }
+}
