@@ -76,7 +76,11 @@ Abra o arquivo index.html dando um duplo clique para executá-lo diretamente em 
 💡 Dica de Desenvolvimento: Caso utilize o Visual Studio Code, execute o projeto utilizando a extensão Live Server para obter recarregamento automático da tela a cada alteração salva no código.
 
 Aqui estão as suas referências mantendo exatamente a mesma estrutura e ordem alfabética, mas agora com as datas de acesso distribuídas aleatoriamente no intervalo solicitado (entre 18 e 25 de maio de 2026):
-
+prompt utilizado:
+"gemini,vou te enviar uns arquivos e preciso que voce troque a imagem de fundo e tambem troque o jogo "Trilha da Sustentabilidade" por esse: Peso das Escolhas  (Estilo "Simulador de Decisões em Texto")
+O jogador é o diretor de uma grande fábrica ou fazenda e deve tomar decisões rápidas que afetam duas barras de status: Produção/Lucro e Saúde do Meio Ambiente.
+Como funciona: Aparece uma situação na tela (Ex: "Usar agrotóxicos mais baratos aumenta a colheita, mas polui o rio próximo"). O jogador clica em "Sim" ou "Não".
+O Equilíbrio: Se a barra de Lucro chegar a zero, o jogador falece financeiramente. Se a barra de Meio Ambiente chegar a zero, ocorre uma catástrofe ecológica e o jogo acaba."
 ---
 
 ## Referências Bibliográficas
