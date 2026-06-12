@@ -74,3 +74,49 @@ Garanta que os arquivos index.html, style.css e script.js estejam localizados no
 Abra o arquivo index.html dando um duplo clique para executá-lo diretamente em qualquer navegador moderno (Chrome, Firefox, Safari, Edge).
 
 💡 Dica de Desenvolvimento: Caso utilize o Visual Studio Code, execute o projeto utilizando a extensão Live Server para obter recarregamento automático da tela a cada alteração salva no código.
+
+Aqui estão as suas referências mantendo exatamente a mesma estrutura e ordem alfabética, mas agora com as datas de acesso distribuídas aleatoriamente no intervalo solicitado (entre 18 e 25 de maio de 2026):
+
+---
+
+## Referências Bibliográficas
+
+AGÊNCIA FAPESP. **Registro de produtos para controle biológico de pragas ultrapassa o de agroquímicos no Brasil**. Agência FAPESP, 2024. Disponível em: [https://agencia.fapesp.br](https://agencia.fapesp.br). Acesso em: 22 maio 2026.
+
+ALVES, M. **Como o Brasil se tornou o maior produtor e consumidor de produtos de biocontrole**. Portal Embrapa, 2024. Disponível em: [https://www.embrapa.br](https://www.embrapa.br). Acesso em: 18 maio 2026.
+
+ASSOCIAÇÃO DOS ENGENHEIROS AGRÔNOMOS DE SERGIPE (AEASE). **Por uma ATER transformadora**. AEASE, [s.d.]. Disponível em: [http://www.aease.org.br](http://www.aease.org.br). Acesso em: 25 maio 2026.
+
+BRASIL. Ministério da Agricultura e Pecuária. **Fortalecer a integração entre agricultura, economia e preservação ambiental é essencial para impulsionar um crescimento sustentável**. Portal Gov.br, 2023. Disponível em: [https://www.gov.br](https://www.gov.br). Acesso em: 20 maio 2026.
+
+BRASIL. Ministério da Agricultura e Pecuária. **Mercado de biodefensivos cresce mais de 70% no Brasil em um ano**. Portal Gov.br, 2023. Disponível em: [https://www.gov.br](https://www.gov.br). Acesso em: 25 maio 2026.
+
+DE SOUZA, A. D. et al. **Integração e sustentabilidade: agropecuária com responsabilidade**. ResearchGate, 2020. Disponível em: [https://www.researchgate.net](https://www.researchgate.net). Acesso em: 19 maio 2026.
+
+EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA (EMBRAPA). **Intensificação e sustentabilidade dos sistemas de produção agrícolas**. Portal Embrapa, [s.d.]. Disponível em: [https://www.embrapa.br](https://www.embrapa.br). Acesso em: 18 maio 2026.
+
+EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA (EMBRAPA). **Johanna Döbereiner: a cientista que revolucionou a agricultura**. Portal Embrapa, [s.d.]. Disponível em: [https://www.embrapa.br](https://www.embrapa.br). Acesso em: 24 maio 2026.
+
+EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA (EMBRAPA). **O meio ambiente e o plantio direto**. Ainfo - A Embrapa, [s.d.]. Disponível em: [https://ainfo.cnptia.embrapa.br](https://www.google.com/search?q=https://ainfo.cnptia.embrapa.br). Acesso em: 25 maio 2026.
+
+EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA (EMBRAPA). **Resultados**. Portal Embrapa, [s.d.]. Disponível em: [https://www.embrapa.br](https://www.embrapa.br). Acesso em: 21 maio 2026.
+
+EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA (EMBRAPA). **Tecnologias poupa-terra preservaram mais de 70 milhões de hectares**. Portal Embrapa, 2022. Disponível em: [https://www.embrapa.br](https://www.embrapa.br). Acesso em: 18 maio 2026.
+
+ESTADÃO. **'Embrapa é indutora na revolução verde agropecuária', diz presidente da empresa**. Estadão Mobilidade, 2023. Disponível em: [https://www.estadao.com.br](https://www.estadao.com.br). Acesso em: 23 maio 2026.
+
+FEDERAÇÃO DA AGRICULTURA DO ESTADO DO PARANÁ (FAEP). **Boletim Informativo**. Sistema FAEP, 2024. Disponível em: [https://www.sistemafaep.org.br](https://www.sistemafaep.org.br). Acesso em: 25 maio 2026.
+
+GRUPO PAPALOTLA. **Integração Lavoura-Pecuária-Floresta: produtividade, sustentabilidade e revolução nas pastagens**. Grupo Papalotla, [s.d.]. Disponível em: [https://grupopapalotla.com.br](https://grupopapalotla.com.br). Acesso em: 18 maio 2026.
+
+INSTITUTO DE PESQUISA ECONÔMICA APLICADA (IPEA). **Efeito poupa-terra e ganhos de produção no setor agropecuário brasileiro**. Repositório IPEA, 2022. Disponível em: [https://repositorio.ipea.gov.br](https://repositorio.ipea.gov.br). Acesso em: 25 maio 2026.
+
+MENTEN, J. O. M. **Comunicação e Agronegócio: Propósito e Impactos**. Doutor Agro, 2023. Disponível em: [https://www.doutoragro.com](https://www.doutoragro.com). Acesso em: 20 maio 2026.
+
+PEDRA AGROINDUSTRIAL. **Pecuária agrícola empresa copersucar**. Pedra Agroindustrial, [s.d.]. Disponível em: [https://www.pedraagroindustrial.com.br](https://www.pedraagroindustrial.com.br). Acesso em: 18 maio 2026.
+
+PROGRAMA DAS NAÇÕES UNIDAS PARA O MEIO AMBIENTE (PNUMA). **Comércio de commodities agrícolas: impactos e desafios para a sustentabilidade no Brasil**. UNEP, 2023. Disponível em: [https://www.unep.org](https://www.unep.org). Acesso em: 25 maio 2026.
+
+REVISTA EA. **Percepção ambiental de agricultores sobre uso sustentável do solo**. Revista Educação Ambiental em Ação, n. 80, [s.d.]. Disponível em: [https://www.revistaea.org](https://www.revistaea.org). Acesso em: 18 maio 2026.
+
+SOLLO AGRO. **Balanço de nutrientes em sistemas integrados: estratégias para sustentabilidade agrícola**. Sollo Agro / ESALQ-USP, 2023. Disponível em: [https://www.solloagro.com.br](https://www.solloagro.com.br). Acesso em: 25 maio 2026.
